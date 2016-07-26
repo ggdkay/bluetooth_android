@@ -1,5 +1,5 @@
 [mac adb](http://blog.csdn.net/chaoyue0071/article/details/42192305)
-
+[bluetooth more](http://www.cnblogs.com/hzl6255/category/588989.html)
 ###hcidump
 < Android 4.2
 
@@ -7,7 +7,8 @@
 >Android 4.2
 各种级别的log 开关是在/etc/bluetooth/bt_stack.conf
  bt_stack.conf的文件内容如下
-
+ 
+```
 # Enable BtSnoop logging function
 # valid value : true, false
 BtSnoopLogOutput=true　//默认是false,如果需要抓取hcidump 的话,改成 true
@@ -16,6 +17,7 @@ BtSnoopLogOutput=true　//默认是false,如果需要抓取hcidump 的话,改成
 BtSnoopFileName=/sdcard/btsnoop_hci.log //默认写hcidump 的路径，btsnoop_hci.log 就是hcidump的log。可以按照你自己的需要修改。
 (**diff vendor will difference motion ,may be nothing**)
 
+```
 ###root
 install software for your phone 
   
